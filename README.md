@@ -30,3 +30,14 @@ docker exec ti- db bash
 mysql -u root -p
 show databases;
 ```
+
+Next step we need to install SQL and GCP clients, so we need to edit Dockerfile
+</br>
+<img width="650" alt="Zrzut ekranu 2023-07-22 o 19 28 30" src="https://github.com/eda6767/Jenkins-sql-gcp/assets/102791467/10571ace-2430-40b1-b132-58865cc40830">
+</br>
+
+```
+docker-compose build
+```
+
+
