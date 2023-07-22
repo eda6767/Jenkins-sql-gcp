@@ -72,3 +72,18 @@ To create backup of database:
 ```
 mysqldump -u root -h db_host -p testdb > /tmp/db.sql
 ```
+
+Now, let's automate creating of this backup:
+
+```
+touch /tmp/script.sh
+cd tmp
+vi script.sh
+```
+<img width="637" alt="Zrzut ekranu 2023-07-22 o 22 57 41" src="https://github.com/eda6767/Jenkins-sql-gcp/assets/102791467/181c0fe2-2410-4636-8aa7-01ad6b4a05c1">
+
+
+```
+chmod +x script.sh
+./script.sh db_host 1234 testdb
+```
