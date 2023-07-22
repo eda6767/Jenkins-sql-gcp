@@ -43,6 +43,12 @@ Next step we need to install SQL and GCP clients, so we need to edit Dockerfile
 
 ```
 docker-compose build
+docker-compose up -d remote_host 
 ```
 
+Now:
 
+```
+docker exec -ti remote-host bash
+mysql
+```
