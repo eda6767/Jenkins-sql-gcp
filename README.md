@@ -52,3 +52,17 @@ Now:
 docker exec -ti remote-host bash
 mysql
 ```
+
+Now from remote-host we are gonna conect to mysql container:
+
+```
+mysql -u root -h db_host -p
+show databases;
+create database testdb;
+use testdb;
+create table info (name varchar(20), lastname varchar(20), age int(2));
+show tables;
+desc info;
+insert into info values ('tom', 'links', 21);
+select * from info;
+```
