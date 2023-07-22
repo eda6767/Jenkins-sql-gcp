@@ -16,7 +16,17 @@ A a first step we have to create container with SQL Database. For this purpose l
 <img width="650" alt="Zrzut ekranu 2023-07-22 o 18 05 07" src="https://github.com/eda6767/Jenkins-sql-gcp/assets/102791467/416959c1-87ff-47d5-ab9c-8c7f67b1689d">
 
 ```
-docker-compose up -d 
+docker-compose up -d
+docker images
 docker ps
 docker logs -f db
+```
+
+</br>
+In our location w folder db_data has been created. Now, let's connest to new container, and then to database
+
+```
+docker exec ti- db bash
+mysql -u root -p
+show databases;
 ```
