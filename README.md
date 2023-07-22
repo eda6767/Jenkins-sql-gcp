@@ -13,4 +13,10 @@ A a first step we have to create container with SQL Database. For this purpose l
 </br>
 
 
-<img width="795" alt="Zrzut ekranu 2023-07-22 o 18 05 07" src="https://github.com/eda6767/Jenkins-sql-gcp/assets/102791467/416959c1-87ff-47d5-ab9c-8c7f67b1689d">
+<img width="650" alt="Zrzut ekranu 2023-07-22 o 18 05 07" src="https://github.com/eda6767/Jenkins-sql-gcp/assets/102791467/416959c1-87ff-47d5-ab9c-8c7f67b1689d">
+
+```
+docker-compose up -d 
+docker ps
+docker logs -f db
+```
