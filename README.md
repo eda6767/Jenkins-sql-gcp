@@ -30,7 +30,8 @@ docker exec ti- db bash
 mysql -u root -p
 show databases;
 ```
-<sub> 
+
+</br>
 Next step we need to install SQL and GCP clients, so we need to edit Dockerfile
   
 </br>
